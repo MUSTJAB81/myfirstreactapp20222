@@ -35,4 +35,4 @@ jobs:
       - name: install surge
         run: npm install --global surge
       - name: deploying on surge
-        run: surge build http://tasteful-scarf.surge.sh/ --token ${{secrets.SURGE_TOKEN2}}
+        run: surge http://tasteful-scarf.surge.sh/ --token ${{secrets.SURGE_TOKEN2}}
