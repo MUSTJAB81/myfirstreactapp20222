@@ -29,8 +29,7 @@ jobs:
         with:
             version: 12
 
-      - name: Install yarn
-        run: npm install --global yarn
+      
       - name: creating build
         run:  npm run build
         
